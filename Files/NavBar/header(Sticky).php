@@ -1,0 +1,15 @@
+<html>
+<head>
+    <link href="../Style/header.css" type="text/css" rel="stylesheet"/>
+    <title>PHP Test</title>
+</head>
+<body>
+<ul class = "navbar">
+    <li class = "headerButton"><a href="index.php">Home</a></li>
+    <li class = "headerButton"><a href="Files/Quotes/quote.php">Quote</a></li>
+    <li class = "headerButton"><a href="Files/Invoices/invoice.php">Invoice</a></li>
+    <li class = "headerButton"><a href="Files/PurchaseOrder/purchaseOrder.php">Purchase Order</a></li>
+    <li style="float:right" class = "headerButton"><a href="login.php">Login</a></li>
+</ul>
+</body>
+</html>

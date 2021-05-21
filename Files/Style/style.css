@@ -1,14 +1,62 @@
+/*Body Style*/
 body{
     margin: 0;
     padding: 0;
     background: white;
 }
+
+/*Sticky Header*/
 div.sticky {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
 
+/*Header Style*/
+.navbar {
+    list-style-type: none;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    width: 100%; /* Full width */
+}
+.headerButton {
+    float: left;
+}
+.headerButton a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 16px;
+    text-decoration: none;
 
+}
+.headerButton a:hover {
+    opacity: 0.7;
+}
+
+.navbar2 {
+    list-style-type: none;
+    background-color: orange;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%; /* Full width */
+}
+.headerButton2 a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.headerButton2 {
+    float: left;
+}
+.headerButton2 a:hover {
+    opacity: 0.7;
+}
 
 
